@@ -10,7 +10,6 @@ servo 2,135' pinça lado direito fechada
 pause 300
 
 inicio:
-
 if pin4=0 and pin3=1 then pinca_agarra
 
 agarrou=0
@@ -29,8 +28,10 @@ else
 	gosub pinca_fechada_agarra
 	pause 500
 endif
-gosub subir_meio
-pause 500
+gosub elev_cima2
+pause 100
+gosub pinca_fechada
+pause 100
 goto inicio
 
 
@@ -44,7 +45,7 @@ agarrou=1
 b0=250
 
 for b1=60 to 120
-if b0>=185 then
+if b0>=170 then
 dec b0
 servo 0,b0 'lado esquerdo
 pause 8
@@ -81,12 +82,10 @@ gosub pinca_meio
 pause 100
 goto inicio
 
-
-
 pinca_meio:  
-servo 0, 225' pinça lado esquerdo aberta
+servo 0, 235' pinça lado esquerdo aberta
 pause 10
-servo 2,90' pinça lado direito aberta
+servo 2,80' pinça lado direito aberta
 pause 10
 return
 
@@ -98,9 +97,9 @@ pause 20
 return
 
 pinca_fechada_agarra:
-servo 0, 180' pinça lado esquerdo fechada
+servo 0, 130' pinça lado esquerdo fechada
 pause 10
-servo 2,120' pinça lado direito fechada
+servo 2,170' pinça lado direito fechada
 pause 80
 return
 
@@ -114,6 +113,11 @@ return
 
 elev_cima:
 servo 1,55'90  'elevador cima
+pause 10
+return
+
+elev_cima2:
+servo 1,50'90  'elevador cima
 pause 10
 return
 
