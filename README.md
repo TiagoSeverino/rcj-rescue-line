@@ -1,5 +1,5 @@
 # RCJ-Rescue-Line-2014
-Software used by my team (Vivinhoteam) in Robocup Junior 2016 Rescue Line Secondary, where we got 12th Place in Individual category and 6th Place in Superteam category.
+Software used by my team (Vivinhoteam) in Robocup Junior 2014 Rescue Line Primary, where we got 12th Place in Individual category and 6th Place in Superteam category.
 
 # Hardware
 
