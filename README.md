@@ -1,5 +1,5 @@
-# RCJ-Rescue-Line-2016
-Software used by my team (Storm) in Robocup Junior 2016 Rescue Line Secondary, where we got 4th Place in Individual and Superteam category.
+# RCJ-Rescue-Line-2017
+Work in Progress for Robocup Junior 2017
 
 # Demonstration
 <a href="https://www.youtube.com/watch?v=_WjSefeZs30" target="_blank"><img src="https://i.ytimg.com/vi/_WjSefeZs30/hqdefault.jpg" 
@@ -15,16 +15,13 @@ Processing Units
 
 Sensors
 
-* 3x SRF04
-* 1x CMPS05
-* 9x Line Sensor
+* 2x SRF04
+* 8x Line Sensor
 * 2x Silver(LDR) Sensor
 * 2x RGB Sensor
-* 3x Micro-Switch
-* 3x Infra-Red Distance Sensor
-* 1x Metal Sensor
+* 7x Micro-Switch
 
 Actuators
 
-* 2x Motors
-* 3x Servo Motors 
+* 4x Motors
+* 4x Servo Motors 
