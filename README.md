@@ -1,9 +1,9 @@
 # RCJ-Rescue-Line-2017
-Work in Progress for Robocup Junior 2017
+Software used by my team (STORM) in Robocup 2017 in Rescue Line, where we got Superteam World Champion Title.
 
 # Demonstration
-<a href="https://www.youtube.com/watch?v=_WjSefeZs30" target="_blank"><img src="https://i.ytimg.com/vi/_WjSefeZs30/hqdefault.jpg" 
-alt="Robocup Rescue Maze Robot" width="480" height="360" border="10" /></a>
+<a href="https://youtu.be/DCoNDoOUyMc" target="_blank"><img src="https://i.ytimg.com/vi/DCoNDoOUyMc/hqdefault.jpg" 
+alt="Rescue Line | Superteam World Champions (KAVOSH & STORM) | RoboCup 2017 Nagoya, Japan" width="480" height="360" border="10" /></a>
 
 # Hardware
 
